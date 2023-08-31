@@ -1,0 +1,164 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+#bloc-body{
+    background-color: rgb(130, 198, 175);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 5%;
+    margin: 10% 5% 0% 5%;
+}
+
+
+
+h2{
+    color: rgb(30, 29, 29);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 180;
+    font-size: 100px;
+    margin-left: 10%;
+}
+
+#bloc-central{
+    border: rgb(113, 113, 113) solid 4px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 15%;
+}
+
+
+
+.bloc-bouton{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(207, 207, 207);
+    padding: 2%;
+    display: flex;
+}
+
+.bouton_1{
+    background-color: rgba(255, 0, 0, 0.805);
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+    border: none;
+}
+
+.bouton_2{
+    background-color: rgba(255, 255, 0, 0.826);
+    border-radius: 100%;
+    margin: 0% 2% 0% 2%;
+    height: 15px;
+    width: 15px;
+    border: none;
+}
+
+.bouton_3{
+    background-color: rgba(0, 128, 0, 0.803);
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+    border: none;
+}
+
+
+
+.bloc-cases{
+    background-color: rgb(219, 220, 220);
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.case_1, .case_2, .case_3,.case_6,.case_7,.case_8{
+    margin: 1%;
+}
+
+
+#ligne_1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.case_1{
+    background-color: rgb(252, 51, 51);
+    height: 40px;
+    width: 70%;
+}
+
+.case_2{
+    background-color:  rgb(252, 51, 51);
+    height: 40px ;
+    width: 30%;
+}
+
+
+
+#ligne_2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.case_3{
+    background-color:  rgb(243, 182, 30);
+    height: 80px;
+    width: 100%;
+}
+
+
+#ligne_2_2{
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+}
+
+.case_4{
+    background-color:  purple;
+    height: 38px ;
+    width: 100%;
+}
+
+.case_5{
+    background-color:  purple;
+    height: 38px ;
+    width: 100%;
+    margin-top: 2%;
+}
+
+
+
+#ligne_3{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.case_6{
+    background-color:  rgb(0, 104, 223);
+    height: 30px;
+    width: 30%;
+}
+
+.case_7{
+    background-color:  rgb(0, 104, 223);
+    height: 30px;
+    width: 40%;
+}
+
+.case_8{
+    background-color:  rgb(0, 104, 223);
+    height: 30px;
+    width: 30%;
+}
